@@ -55,7 +55,9 @@ Raspberry pi : arduino에서 받은 변위 값 기록, 필터링 후 데이터 �
 
 **LaserSensor.ino**  
 
-Photo Sensor에 Flag 입력이 있는지 실시간으로 확인, 현재 레일의 바닥면까지의 거리 전압값 변위로 변환 후 현재 Flag 값과 변위 값 Raspberry pi에 전송  
+Photo Sensor에 Flag 입력이 있는지 실시간으로 확인  
+현재 레일의 바닥면까지의 거리 전압값 변위로 변환  
+현재 Flag 값과 변위 값 Raspberry pi에 전송  
 
 **Rail_Measure.py**  
 
