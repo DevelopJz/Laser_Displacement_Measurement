@@ -45,7 +45,7 @@ C:\Users\사용자명\Documents\Arduino\libraries 에서 다운로드한 zip 파
 
 arduino : Realtime으로 레일 위를 지나가며 측정, 레이저 변위 센서에서 출력하는 전압값 받고 필터링 후 변위로 치환하여 Raspberry pi 에 전송  
 Raspberry pi : arduino에서 받은 변위 값 기록, 필터링 후 데이터 가공하여 레일의 개수, 레일 표면의 요철 측정, 그래프와 csv 파일 출력  
-               Flag 입력 시 측정 종료
+               Flag 입력 시 측정 종료, 파일들 연결된 USB에 저장하여 측정 후 USB 통해 확인 가능  
 
 ![image](https://user-images.githubusercontent.com/96412126/160346173-bccc9b76-8442-456a-9e52-b118411cae3f.png)
 
@@ -66,4 +66,4 @@ Photo Sensor에서 Flag 입력이 있을 때 까지 측정 시작
 빈 간격 측정 시 센서 측정 범위 초과하여 다음 레일로 건너간 것으로 인식  
 레일의 끝까지 측정 후 Photo Sensor에 Flag 입력, 측정 종료  
 종료 후 측정한 데이터 각 레일의 요철값으로 가공하여 csv 파일, 그래프로 저장  
-각 레일 별 최대/최소 거리 txt파일에 기록
+각 레일 별 최대/최소 거리 txt파일에 기록  
