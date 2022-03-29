@@ -10,13 +10,13 @@
 
 ### 라이브러리
  - Python  
-   - __future__  
-   - csv  
-   - RPI.GPIO
    - pyserial  
-   - time  
-   - matplotlib
-   - tkinter  
+   - csv  
+   - RPI.GPIO  
+   - os  
+   - time    
+   - matplotlib  
+   - numpy  
  
  - Arduino  
    - 기본 라이브러리 사용
