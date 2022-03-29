@@ -1,0 +1,28 @@
+ - Python3 Project 3
+  - Python3 Laser Displacement Measurement
+  - Rail_Measure.py
+   
+ - 사용 라이브러리 
+  - pyserial
+  - os
+  - csv
+  - time
+  - numpy
+  - RPI.GPIO
+  - matplotlib
+ 
+ - 코드 설명  
+  1. arduino에서 변위값, Flag값 수신
+  2. 카트 진행하면서 레일 측정
+  3. Flag 신호 변경 시 측정 종료
+  4. 측정 종료 후 기록된 변위값 raw데이터 저장 (Rail_raw.csv)
+  5. raw데이터 필터링 후 저장 (Rail_raw_all.csv)
+  6. 센서 범위 초과 시 센서 범위 내 최대값만 출력, 이 때를 레일 사이의 간격으로 계산
+  7. 레일 간격 검출 시 데이터 분할 (ex) 측정시작~검출 전->1번 레일, 검출 후~다음 검출 전->2번 레일...)
+  8. 각 레일 별로 데이터 분류, 저장 (Rail_data.csv / Rail_Result.txt)
+  9. 각 레일 그래프 파일 저장, 레일 개수가 매번 달라지는 경우 있어 3개씩 그래프 파일로 저장
+  
+ - 동작 결과
+  - Rail_data.csv : 각 레일 별 raw 데이터 저장
+  - Rail_Result.txt : 각 레일 별 데이터 개수, 최대/최소값 저장
+  - Rail_Data_graph : 각 레일 별 변위 그래프로 저장
