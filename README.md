@@ -70,3 +70,16 @@ Photo Sensor에서 Flag 입력이 있을 때 까지 측정 시작
 
 **Block_Test_graph**  
 ![image](https://user-images.githubusercontent.com/96412126/162860910-69446ee1-c296-4336-849b-d2c4b3751aa3.png)
+
+**Block_Test_result**  
+전자석 분석 파일
+
+Magnet 1
+데이터 개수 : 1712
+Max : 12.87
+Min : 9.55
+
+Magnet 2
+데이터 개수 : 797
+Max : 12.84
+Min : 9.55
