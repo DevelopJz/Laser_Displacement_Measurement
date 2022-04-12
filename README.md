@@ -67,3 +67,6 @@ Photo Sensor에서 Flag 입력이 있을 때 까지 측정 시작
 레일의 끝까지 측정 후 Photo Sensor에 Flag 입력, 측정 종료  
 종료 후 측정한 데이터 각 레일의 요철값으로 가공하여 csv 파일, 그래프로 저장  
 각 레일 별 최대/최소 거리 txt파일에 기록  
+
+**Block_Test_graph**  
+![image](https://user-images.githubusercontent.com/96412126/162860910-69446ee1-c296-4336-849b-d2c4b3751aa3.png)
